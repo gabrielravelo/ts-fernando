@@ -1,8 +1,9 @@
 "use strict";
-const msg = 'Hello World.';
-const hero = {
-    name: 'Ironman',
-    age: 45
-};
-hero.age = 50;
-console.log(hero.age + 1);
+(() => {
+    const a = 10;
+    console.log(a);
+    // let b:string;
+    // function sayHello( msg: string ) {
+    //     console.log( msg );
+    // };
+})();
